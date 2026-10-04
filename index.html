@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>10-in-1 AI Micro-SaaS Suite | Launchpad Portal</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-slate-950 text-slate-100 min-h-screen flex flex-col font-sans">
+
+  <!-- Header / Navbar -->
+  <header class="border-b border-slate-800 bg-slate-900/80 sticky top-0 z-50 backdrop-blur-md">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+      <div class="flex items-center space-x-3">
+        <div class="bg-indigo-600 p-2 rounded-xl text-white">
+          <i class="fa-solid fa-cubes text-xl"></i>
+        </div>
+        <div>
+          <h1 class="font-extrabold text-lg sm:text-xl tracking-tight text-white">AI Micro-SaaS Suite</h1>
+          <p class="text-xs text-slate-400">Master Enterprise Launchpad Portal</p>
+        </div>
+      </div>
+      <div>
+        <span class="bg-emerald-500/10 text-emerald-400 border border-emerald-500/30 text-xs font-semibold px-3 py-1.5 rounded-full flex items-center gap-1.5">
+          <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span> Live White-Label Edition
+        </span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Portal Section -->
+  <main class="flex-1 max-w-7xl mx-auto px-4 py-10 w-full">
+    
+    <!-- Hero Banner -->
+    <div class="text-center max-w-3xl mx-auto mb-12">
+      <h2 class="text-3xl sm:text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 via-sky-300 to-emerald-400 mb-3">
+        10 Production-Ready AI Micro-SaaS Tools
+      </h2>
+      <p class="text-slate-400 text-sm sm:text-base">
+        Select any micro-utility below to launch its live standalone environment. Fully white-labeled with commercial reselling rights.
+      </p>
+    </div>
+
+    <!-- Grid of Tools -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+      <!-- Tool 1 -->
+      <div class="glass-card rounded-2xl p-6 hover:border-indigo-500/50 transition-all flex flex-col justify-between group">
+        <div>
+          <div class="flex items-center justify-between mb-4">
+            <span class="bg-indigo-500/10 text-indigo-400 p-3 rounded-xl"><i class="fa-solid fa-cart-shopping text-xl"></i></span>
+            <span class="text-xs font-medium text-slate-400 bg-slate-800/80 px-2.5 py-1 rounded-md">Tool #01</span>
+          </div>
+          <h3 class="font-bold text-lg text-white group-hover:text-indigo-400 transition-colors">E-Com Product & Ad Copy AI</h3>
+          <p class="text-xs text-slate-400 mt-2 leading-relaxed">Generate high-converting Shopify descriptions, social ad copies, and marketing angles in seconds.</p>
+        </div>
+        <div class="mt-6">
+          <button onclick="launchTool('tool1')" class="w-full bg-indigo-600 hover:bg-indigo-500 text-white font-medium text-xs py-2.5 px-4 rounded-xl transition-all flex items-center justify-center gap-2">
+            Launch Tool <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- Tool 2 -->
+      <div class="glass-card rounded-2xl p-6 hover:border-sky-500/50 transition-all flex flex-col justify-between group">
+        <div>
+          <div class="flex items-center justify-between mb-4">
+            <span class="bg-sky-500/10 text-sky-400 p-3 rounded-xl"><i class="fa-solid fa-code text-xl"></i></span>
+            <span class="text-xs font-medium text-slate-400 bg-slate-800/80 px-2.5 py-1 rounded-md">Tool #02</span>
+          </div>
+          <h3 class="font-bold text-lg text-white group-hover:text-sky-400 transition-colors">AI SEO Schema Generator</h3>
+          <p class="text-xs text-slate-400 mt-2 leading-relaxed">Build structured JSON-LD rich snippets for websites, products, and FAQs instantly.</p>
+        </div>
+        <div class="mt-6">
+          <button onclick="launchTool('tool2')" class="w-full bg-sky-600 hover:bg-sky-500 text-white font-medium text-xs py-2.5 px-4 rounded-xl transition-all flex items-center justify-center gap-2">
+            Launch Tool <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- Tool 3 -->
+      <div class="glass-card rounded-2xl p-6 hover:border-emerald-500/50 transition-all flex flex-col justify-between group">
+        <div>
+          <div class="flex items-center justify-between mb-4">
+            <span class="bg-emerald-500/10 text-emerald-400 p-3 rounded-xl"><i class="fa-solid fa-paper-plane text-xl"></i></span>
+            <span class="text-xs font-medium text-slate-400 bg-slate-800/80 px-2.5 py-1 rounded-md">Tool #03</span>
+          </div>
+          <h3 class="font-bold text-lg text-white group-hover:text-emerald-400 transition-colors">AI Cold Email & Sales Generator</h3>
+          <p class="text-xs text-slate-400 mt-2 leading-relaxed">Craft personalized outreach scripts, follow-ups, and pitch decks with AI precision.</p>
+        </div>
+        <div class="mt-6">
+          <button onclick="launchTool('tool3')" class="w-full bg-emerald-600 hover:bg-emerald-500 text-white font-medium text-xs py-2.5 px-4 rounded-xl transition-all flex items-center justify-center gap-2">
+            Launch Tool <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- Tool 4 -->
+      <div class="glass-card rounded-2xl p-6 hover:border-purple-500/50 transition-all flex flex-col justify-between group">
+        <div>
+          <div class="flex items-center justify-between mb-4">
+            <span class="bg-purple-500/10 text-purple-400 p-3 rounded-xl"><i class="fa-solid fa-scale-balanced text-xl"></i></span>
+            <span class="text-xs font-medium text-slate-400 bg-slate-800/80 px-2.5 py-1 rounded-md">Tool #04</span>
+          </div>
+          <h3 class="font-bold text-lg text-white group-hover:text-purple-400 transition-colors">LegalCraft AI Policy Generator</h3>
+          <p class="text-xs text-slate-400 mt-2 leading-relaxed">Generate compliant Privacy Policies, Terms of Service, and GDPR documents.</p>
+        </div>
+        <div class="mt-6">
+          <button onclick="launchTool('tool4')" class="w-full bg-purple-600 hover:bg-purple-500 text-white font-medium text-xs py-2.5 px-4 rounded-xl transition-all flex items-center justify-center gap-2">
+            Launch Tool <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- Tool 5 -->
+      <div class="glass-card rounded-2xl p-6 hover:border-pink-500/50 transition-all flex flex-col justify-between group">
+        <div>
+          <div class="flex items-center justify-between mb-4">
+            <span class="bg-pink-500/10 text-pink-400 p-3 rounded-xl"><i class="fa-solid fa-hashtag text-xl"></i></span>
+            <span class="text-xs font-medium text-slate-400 bg-slate-800/80 px-2.5 py-1 rounded-md">Tool #05</span>
+          </div>
+          <h3 class="font-bold text-lg text-white group-hover:text-pink-400 transition-colors">AI Social Content Studio</h3>
+          <p class="text-xs text-slate-400 mt-2 leading-relaxed">Generate viral X threads, LinkedIn posts, and Instagram captions with hooks.</p>
+        </div>
+        <div class="mt-6">
+          <button onclick="launchTool('tool5')" class="w-full bg-pink-600 hover:bg-pink-500 text-white font-medium text-xs py-2.5 px-4 rounded-xl transition-all flex items-center justify-center gap-2">
+            Launch Tool <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- Tool 6 -->
+      <div class="glass-card rounded-2xl p-6 hover:border-amber-500/50 transition-all flex flex-col justify-between group">
+        <div>
+          <div class="flex items-center justify-between mb-4">
+            <span class="bg-amber-500/10 text-amber-400 p-3 rounded-xl"><i class="fa-solid fa-chart-line text-xl"></i></span>
+            <span class="text-xs font-medium text-slate-400 bg-slate-800/80 px-2.5 py-1 rounded-md">Tool #06</span>
+          </div>
+          <h3 class="font-bold text-lg text-white group-hover:text-amber-400 transition-colors">AI Brand Growth Engine</h3>
+          <p class="text-xs text-slate-400 mt-2 leading-relaxed">Automate positioning strategies, tagline creation, and buyer persona mapping.</p>
+        </div>
+        <div class="mt-6">
+          <button onclick="launchTool('tool6')" class="w-full bg-amber-600 hover:bg-amber-500 text-white font-medium text-xs py-2.5 px-4 rounded-xl transition-all flex items-center justify-center gap-2">
+            Launch Tool <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- Tool 7 -->
+      <div class="glass-card rounded-2xl p-6 hover:border-cyan-500/50 transition-all flex flex-col justify-between group">
+        <div>
+          <div class="flex items-center justify-between mb-4">
+            <span class="bg-cyan-500/10 text-cyan-400 p-3 rounded-xl"><i class="fa-solid fa-calculator text-xl"></i></span>
+            <span class="text-xs font-medium text-slate-400 bg-slate-800/80 px-2.5 py-1 rounded-md">Tool #07</span>
+          </div>
+          <h3 class="font-bold text-lg text-white group-hover:text-cyan-400 transition-colors">FinCraft EMI & ROI Calculator</h3>
+          <p class="text-xs text-slate-400 mt-2 leading-relaxed">Financial modeling tool for startup ROI forecasts, loan EMIs, and SaaS metrics.</p>
+        </div>
+        <div class="mt-6">
+          <button onclick="launchTool('tool7')" class="w-full bg-cyan-600 hover:bg-cyan-500 text-white font-medium text-xs py-2.5 px-4 rounded-xl transition-all flex items-center justify-center gap-2">
+            Launch Tool <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- Tool 8 -->
+      <div class="glass-card rounded-2xl p-6 hover:border-teal-500/50 transition-all flex flex-col justify-between group">
+        <div>
+          <div class="flex items-center justify-between mb-4">
+            <span class="bg-teal-500/10 text-teal-400 p-3 rounded-xl"><i class="fa-solid fa-tags text-xl"></i></span>
+            <span class="text-xs font-medium text-slate-400 bg-slate-800/80 px-2.5 py-1 rounded-md">Tool #08</span>
+          </div>
+          <h3 class="font-bold text-lg text-white group-hover:text-teal-400 transition-colors">AI E-Com SEO MetaCraft</h3>
+          <p class="text-xs text-slate-400 mt-2 leading-relaxed">Optimize product titles, meta descriptions, and alt tags for search ranking.</p>
+        </div>
+        <div class="mt-6">
+          <button onclick="launchTool('tool8')" class="w-full bg-teal-600 hover:bg-teal-500 text-white font-medium text-xs py-2.5 px-4 rounded-xl transition-all flex items-center justify-center gap-2">
+            Launch Tool <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- Tool 9 -->
+      <div class="glass-card rounded-2xl p-6 hover:border-rose-500/50 transition-all flex flex-col justify-between group">
+        <div>
+          <div class="flex items-center justify-between mb-4">
+            <span class="bg-rose-500/10 text-rose-400 p-3 rounded-xl"><i class="fa-solid fa-hashtag text-xl"></i></span>
+            <span class="text-xs font-medium text-slate-400 bg-slate-800/80 px-2.5 py-1 rounded-md">Tool #09</span>
+          </div>
+          <h3 class="font-bold text-lg text-white group-hover:text-rose-400 transition-colors">AI TagCraft Studio</h3>
+          <p class="text-xs text-slate-400 mt-2 leading-relaxed">Smart keyword & hashtag extraction engine for blogs, videos, and social media.</p>
+        </div>
+        <div class="mt-6">
+          <button onclick="launchTool('tool9')" class="w-full bg-rose-600 hover:bg-rose-500 text-white font-medium text-xs py-2.5 px-4 rounded-xl transition-all flex items-center justify-center gap-2">
+            Launch Tool <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </button>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <footer class="border-t border-slate-800 bg-slate-900/40 py-6 text-center text-xs text-slate-500">
+    <p>© Commercial Micro-SaaS Suite. Commercial Reselling & White-Label Authorized.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
