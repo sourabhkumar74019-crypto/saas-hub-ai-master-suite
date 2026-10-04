@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SaaS Hub AI - Master Micro-SaaS Suite</title>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-theme">
+    <div class="app-container">
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar">
+            <div class="brand">
+                <div class="brand-icon">
+                    <i class="fa-solid fa-cubes-stacked"></i>
+                </div>
+                <h2>SaaS Hub <span>AI</span></h2>
+            </div>
+            
+            <nav class="nav-menu">
+                <button class="nav-item active" id="navAllTools"><i class="fa-solid fa-border-all"></i> All 9 AI Tools</button>
+                <button class="nav-item" id="navProBundle"><i class="fa-solid fa-crown"></i> Get 10-in-1 Bundle</button>
+            </nav>
+
+            <!-- Monetization Sidebar Banner Slot -->
+            <div class="ad-slot-sidebar">
+                <span class="ad-label">SPECIAL OFFER</span>
+                <p><strong>Own All 10 SaaS Apps</strong></p>
+                <small>Full Source Code & White-Label Resell Rights</small>
+                <button class="btn-ad-sm" id="sidebarCheckDeals">View Bundle Deal</button>
+            </div>
+
+            <div class="api-card">
+                <div class="api-header">
+                    <i class="fa-solid fa-shield-halved"></i>
+                    <span>Master Suite Access</span>
+                </div>
+                <p class="api-note">All tools ready to launch instantly with zero latency.</p>
+            </div>
+        </aside>
+
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <header class="top-bar">
+                <div class="welcome-text">
+                    <h1>AI Micro-SaaS Suite & Launchpad</h1>
+                    <p>Access high-converting AI engines for E-Commerce, SEO, Finance & Social Media</p>
+                </div>
+                <div class="theme-toggle">
+                    <button id="themeToggleBtn" title="Toggle Light/Dark Mode"><i class="fa-solid fa-sun"></i></button>
+                </div>
+            </header>
+
+            <!-- Top Ad Banner -->
+            <div class="ad-banner-top">
+                <i class="fa-solid fa-bolt"></i>
+                <span><strong>Agency Special:</strong> Save 60% on complete 10-in-1 White-Label SaaS Rights. <a href="#" id="topLearnMore">Claim Deal</a></span>
+            </div>
+
+            <!-- Filter Tabs -->
+            <div class="filter-bar">
+                <button class="filter-btn active" data-filter="all">All Tools</button>
+                <button class="filter-btn" data-filter="ecom">E-Commerce</button>
+                <button class="filter-btn" data-filter="seo">SEO & Marketing</button>
+                <button class="filter-btn" data-filter="utility">Business & Finance</button>
+            </div>
+
+            <!-- 9 Tools Grid Cards -->
+            <div class="tools-grid" id="toolsGrid">
+                
+                <!-- Tool 1 -->
+                <div class="tool-card" data-category="ecom">
+                    <div class="card-badge">E-Com AI</div>
+                    <div class="tool-icon"><i class="fa-solid fa-cart-shopping"></i></div>
+                    <h3>Product Description Generator</h3>
+                    <p>Creates high-converting product descriptions & ad copy for online stores.</p>
+                    <a href="https://ecom-ai-copy-studio.netlify.app" target="_blank" class="btn-launch"><i class="fa-solid fa-rocket"></i> Launch Tool</a>
+                </div>
+
+                <!-- Tool 2 -->
+                <div class="tool-card" data-category="seo">
+                    <div class="card-badge">SEO Engine</div>
+                    <div class="tool-icon"><i class="fa-solid fa-code"></i></div>
+                    <h3>SEO & Schema Generator</h3>
+                    <p>Generates Meta tags & JSON-LD structured data schema for top Google rankings.</p>
+                    <a href="https://ai-seo-schema-generator.netlify.app" target="_blank" class="btn-launch"><i class="fa-solid fa-rocket"></i> Launch Tool</a>
+                </div>
+
+                <!-- Tool 3 -->
+                <div class="tool-card" data-category="seo">
+                    <div class="card-badge">Outreach AI</div>
+                    <div class="tool-icon"><i class="fa-solid fa-paper-plane"></i></div>
+                    <h3>E-Com Ad Copy & Cold Email Studio</h3>
+                    <p>Crafts high-converting cold email outreach sequences & Facebook/Insta ad copies.</p>
+                    <a href="https://ai-cold-email-generator.netlify.app" target="_blank" class="btn-launch"><i class="fa-solid fa-rocket"></i> Launch Tool</a>
+                </div>
+
+                <!-- Tool 4 -->
+                <div class="tool-card" data-category="seo">
+                    <div class="card-badge">Social AI</div>
+                    <div class="tool-icon"><i class="fa-solid fa-share-nodes"></i></div>
+                    <h3>AI Social Content & Thread Studio</h3>
+                    <p>Generates viral Twitter/X threads, LinkedIn posts & social media schedules.</p>
+                    <a href="https://ai-social-content-studio.netlify.app" target="_blank" class="btn-launch"><i class="fa-solid fa-rocket"></i> Launch Tool</a>
+                </div>
+
+                <!-- Tool 5 -->
+                <div class="tool-card" data-category="seo">
+                    <div class="card-badge">Growth AI</div>
+                    <div class="tool-icon"><i class="fa-solid fa-chart-line"></i></div>
+                    <h3>BrandX Growth Engine</h3>
+                    <p>AI brand strategy, slogan generator & conversion copywriting toolkit.</p>
+                    <a href="https://brandx-growth-engine.netlify.app" target="_blank" class="btn-launch"><i class="fa-solid fa-rocket"></i> Launch Tool</a>
+                </div>
+
+                <!-- Tool 6 -->
+                <div class="tool-card" data-category="ecom">
+                    <div class="card-badge">Meta AI</div>
+                    <div class="tool-icon"><i class="fa-solid fa-magnifying-glass-chart"></i></div>
+                    <h3>SEO MetaCraft E-Com Studio</h3>
+                    <p>High-CTR Amazon & Shopify title tag & Google meta description optimizer.</p>
+                    <a href="https://seo-metacraft-5836.netlify.app" target="_blank" class="btn-launch"><i class="fa-solid fa-rocket"></i> Launch Tool</a>
+                </div>
+
+                <!-- Tool 7 -->
+                <div class="tool-card" data-category="seo">
+                    <div class="card-badge">Hashtag AI</div>
+                    <div class="tool-icon"><i class="fa-solid fa-hashtag"></i></div>
+                    <h3>TagCraft AI: Caption & Hashtags</h3>
+                    <p>Viral Instagram Reel & TikTok caption generator with micro-targeted hashtags.</p>
+                    <a href="https://tagcraft-ai-studio.netlify.app" target="_blank" class="btn-launch"><i class="fa-solid fa-rocket"></i> Launch Tool</a>
+                </div>
+
+                <!-- Tool 8 -->
+                <div class="tool-card" data-category="utility">
+                    <div class="card-badge">Finance AI</div>
+                    <div class="tool-icon"><i class="fa-solid fa-calculator"></i></div>
+                    <h3>EMI & Profit Margin Calculator</h3>
+                    <p>Precision business loan EMI calculator with live ratio charts & profit margin metrics.</p>
+                    <a href="https://fincraft-emi-roi-calculator.netlify.app" target="_blank" class="btn-launch"><i class="fa-solid fa-rocket"></i> Launch Tool</a>
+                </div>
+
+                <!-- Tool 9 -->
+                <div class="tool-card" data-category="utility">
+                    <div class="card-badge">Legal AI</div>
+                    <div class="tool-icon"><i class="fa-solid fa-scale-balanced"></i></div>
+                    <h3>LegalCraft AI: Privacy & Terms</h3>
+                    <p>GDPR & CCPA compliant Privacy Policy, Terms of Service & Refund Policy drafter.</p>
+                    <a href="https://legalcraft-ai-policy-generator.netlify.app" target="_blank" class="btn-launch"><i class="fa-solid fa-rocket"></i> Launch Tool</a>
+                </div>
+
+            </div>
+        </main>
+    </div>
+
+    <!-- Pro Bundle Modal -->
+    <div id="proModal" class="modal-overlay">
+        <div class="modal-card">
+            <button class="modal-close" id="closeProModal">&times;</button>
+            <div class="modal-header">
+                <i class="fa-solid fa-crown modal-crown"></i>
+                <h2>Own The Entire 10-in-1 AI SaaS Suite</h2>
+                <p>Complete Source Code + Commercial Reseller License</p>
+            </div>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <h4>Single Tool Licence</h4>
+                    <div class="price">₹12,000 <span>/app</span></div>
+                    <ul>
+                        <li><i class="fa-solid fa-check"></i> Single Tool Deployment</li>
+                        <li><i class="fa-solid fa-check"></i> Standard Source Code</li>
+                        <li><i class="fa-solid fa-xmark cross"></i> No Multi-App Dashboard</li>
+                    </ul>
+                    <button class="btn-plan current">Select Single</button>
+                </div>
+                <div class="pricing-card popular">
+                    <span class="badge">BEST VALUE</span>
+                    <h4>Complete 10-in-1 Suite</h4>
+                    <div class="price">₹45,000 <span>/full suite</span></div>
+                    <ul>
+                        <li><i class="fa-solid fa-check"></i> All 10 SaaS Web Applications</li>
+                        <li><i class="fa-solid fa-check"></i> Full White-Label & Resell Rights</li>
+                        <li><i class="fa-solid fa-check"></i> Master Portal Launchpad Included</li>
+                    </ul>
+                    <button class="btn-plan primary" id="buyProBtn">Claim 10-in-1 Bundle</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Deals Modal -->
+    <div id="dealsModal" class="modal-overlay">
+        <div class="modal-card modal-sm">
+            <button class="modal-close" id="closeDealsModal">&times;</button>
+            <div class="modal-header">
+                <i class="fa-solid fa-fire modal-fire"></i>
+                <h2>Agency Partner Package</h2>
+                <p>Turnkey AI SaaS business ready for deployment</p>
+            </div>
+            <div class="deals-list">
+                <div class="deal-item">
+                    <div>
+                        <strong>Custom Domain Setup</strong>
+                        <p>Deploy all 10 apps under your main agency domain</p>
+                    </div>
+                    <span class="btn-deal-claim">Included</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
